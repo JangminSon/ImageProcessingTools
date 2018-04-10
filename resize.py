@@ -1,12 +1,5 @@
-
-# coding: utf-8
-
-# In[ ]:
-
-
-# import PIL
 import os
-# from PIL import Image
+from PIL import Image
 
 def search(dirname):
     filenames = os.listdir(dirname)
